@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="professores.css"
-    <link rel="style.css" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="logo.png"></h1>
+            <h1><img src="logo.png" alt="logo do curso"></h1>
 
             <nav>
                 <ul>
@@ -39,8 +39,8 @@
             <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea required>
              
             
-        <div>  
-            <p>Como prefere ser incomodado?</p>
+        <fieldset>  
+            <legend>Como prefere ser incomodado?</legend>
             <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
             
 
@@ -48,16 +48,16 @@
             
 
             <label for="radio-zap"><input type="radio" name="contato" value="WhatsApp" id="radio-zap" checked>WhatsApp</label>
-        </div>
+        </fieldset>
 
-        <div>
-            <p>Qual horário vc vem?</p>
+        <fieldset>
+            <legend>Qual horário vc vem?</legend>
         <select>
                 <option>Manhã</option>
                 <option>Tarde</option>
                 <option>Noite</option>
         </select>
-        </div>
+        </fieldset>
 
             <label><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
 
